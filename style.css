@@ -34,7 +34,6 @@ li, ul, ol, span {
 
 body {
     overflow-x: hidden;
-    max-width: 1920px;
 }
 
 @font-face {
@@ -59,7 +58,10 @@ body {
 }
 
 
-/*body*/
+/*body-------------------------------------------------------*/
+body {
+    width: 100%;
+}
 
 
 /*header ----------------------------------------------------*/
@@ -98,14 +100,24 @@ section .click {
     position: absolute;
     display: inline;
 
-    color: RGB(176, 221, 152);
+    color: RGB(187,230,177);
 
-    left: 24%;
-    width: 52%;
-    font-size: 9.4vw;
-    top: 236vw;
+    left: 35%;
+    width: 30%;
+    font-size: 5vw;
+    top: 85vw; 
     border-radius: 5vw;
+}
 
-
+section .video1 {
+    position: absolute;
+    display: inline;
+    left: 23%;
+    width: 54%;
+    height: auto;
+    top: 133vw;
+    border: 0.2vmax solid black;
+    border-radius: 1vmax;
+    /*box-shadow: gray 0.5vw 0.5vw 0.5vw;*/
 }
 
