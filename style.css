@@ -109,6 +109,32 @@ section .click {
     border-radius: 5vw;
 }
 
+/*
+section .participant {
+    position: absolute;
+    display: inline;
+
+    left: 40%;
+    width: 20%;
+    font-size: 1vw;
+    top: 71vw;
+    background-color: RGB(248,248,248);
+    color: orange;
+    font-weight: bold;
+}
+*/
+
+section .participant {
+    position: absolute;
+    display: inline;
+
+    left: 39.6%;
+    width: 22%;
+    height: auto;
+    top: 70.7vw;
+
+}
+
 section .video1 {
     position: absolute;
     display: inline;
@@ -121,3 +147,16 @@ section .video1 {
     /*box-shadow: gray 0.5vw 0.5vw 0.5vw;*/
 }
 
+section .notice {
+    position: absolute;
+    display: inline;
+
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+    top: 393vw;
+    border: 0.2vmax solid orange;
+    border-radius: 1vmax;
+    box-shadow: lightgray 0.05vmax 0.05vmax 0.05vmax;
+    
+}
