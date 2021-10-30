@@ -58,7 +58,7 @@ elif login_if == '2':
         executable_path='C:\Intellij\WalkingFestival\webCrawler\chromedriver.exe')
 
     # 인스타그램 로그인 화면으로 이동
-    driver.get('https://www.instagram.com/accounts/login/')
+    driver.get('https://www.instagram.com')
 
     # drive.get(url) 이후에 창이 열릴 때까지 대기하는 시간 2초
     time.sleep(2)
@@ -103,9 +103,10 @@ for i in insta:
 
         # 메모리의 이미지를 파일로 저장
         # text 가 아니라면 binary로 주어지기 때문에 wb(write binary) 사용
-        with open(saveimg, mode='wb') as h:
+        with open(saveimg, 'wb') as h:
             img = f.read()
             h.write(img)
+            h.close()
     n += 1
 
 
